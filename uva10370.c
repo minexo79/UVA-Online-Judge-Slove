@@ -3,6 +3,10 @@
 
 float solve(int *arr, int len)
 {
+    /**
+     * reference from: https://ringsacm.pixnet.net/blog/post/6398244-acm-10370%3A-above-average
+     */
+    
     int i, above_count = 0;
     float sum = 0;
     for(i=0;i<len;i++)
